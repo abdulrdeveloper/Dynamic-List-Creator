@@ -21,7 +21,7 @@ btn.addEventListener('click', function () {
             newItem.style.backgroundColor = '';
         } else {
             text.style.textDecoration = 'line-through';
-            text.style.color = '#b1a7a7e3';
+            text.style.color = '#928b8be3';
             newItem.style.backgroundColor = '#0f0f0fe3';
             tick.remove();
         }
@@ -31,11 +31,8 @@ btn.addEventListener('click', function () {
     cross.className = "fa-solid fa-xmark";
     cross.addEventListener('click', function () {
         setTimeout(() => {
-            newItem.style.backgroundColor = '#0f0f0fe3';
-        }, 50);
-        setTimeout(() => {
             newItem.remove();
-        }, 200);
+        }, 100);
     })
 
     newItem.appendChild(text);
