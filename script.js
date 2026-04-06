@@ -1,5 +1,3 @@
-// Added a comment for better code understanding
-
 const item = document.querySelector("#itemInput");
 const btn = document.querySelector("#addBtn");
 const list = document.querySelector("#list");
@@ -23,7 +21,7 @@ btn.addEventListener('click', function () {
             newItem.style.backgroundColor = '';
         } else {
             text.style.textDecoration = 'line-through';
-            text.style.color = '#928b8be3';
+            text.style.color = '#928b8bb6';
             newItem.style.backgroundColor = '#0f0f0fe3';
             tick.remove();
         }
