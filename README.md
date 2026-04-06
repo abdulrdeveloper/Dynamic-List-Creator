@@ -17,7 +17,7 @@ A simple and interactive web application that allows users to dynamically create
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/abdulrdeveloper/Dynamic-List-Creator).git
+   [git clone (https://github.com/abdulrdeveloper/Dynamic-List-Creator).git](https://github.com/abdulrdeveloper/Dynamic-List-Creator.git)
    ```
 2. Navigate to the project directory:
    ```bash
