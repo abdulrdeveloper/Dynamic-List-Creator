@@ -1,3 +1,5 @@
+// Added a comment for better code understanding
+
 const item = document.querySelector("#itemInput");
 const btn = document.querySelector("#addBtn");
 const list = document.querySelector("#list");
