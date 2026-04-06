@@ -13,12 +13,15 @@ btn.addEventListener('click', function () {
     const tick = document.createElement('i');
     tick.className = "fa-solid fa-check";
 
+    if (!item.value) return;
+
     tick.addEventListener('click', function () {
         if (text.style.textDecoration === 'line-through') {
             text.style.textDecoration = '';
             newItem.style.backgroundColor = '';
         } else {
             text.style.textDecoration = 'line-through';
+            text.style.color = '#b1a7a7e3';
             newItem.style.backgroundColor = '#0f0f0fe3';
             tick.remove();
         }
@@ -29,9 +32,7 @@ btn.addEventListener('click', function () {
     cross.addEventListener('click', function () {
         setTimeout(() => {
             newItem.style.backgroundColor = '#0f0f0fe3';
-            tick.remove();
-            cross.remove();
-        }, 100);
+        }, 50);
         setTimeout(() => {
             newItem.remove();
         }, 200);
