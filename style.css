@@ -36,7 +36,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Ambient core glow behind the container */
 body::before {
     content: '';
     position: absolute;
