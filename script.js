@@ -16,6 +16,7 @@ btn.addEventListener('click', function () {
     if (!item.value) return;
 
     tick.addEventListener('click', function () {
+
         if (text.style.textDecoration === 'line-through') {
             text.style.textDecoration = '';
             newItem.style.backgroundColor = '';
@@ -25,6 +26,7 @@ btn.addEventListener('click', function () {
             newItem.style.backgroundColor = '#0f0f0fe3';
             tick.remove();
         }
+        
     })
 
     const cross = document.createElement('i');
